@@ -12,6 +12,11 @@ type User {
   message: String
 }
 
+type UpdatedUserResponse {
+  success: Boolean!
+  message: String!
+}
+
 type Mutation {
-  updateUser(message: String): User
+  updateUser(message: String): UpdatedUserResponse!
 }

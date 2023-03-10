@@ -10,14 +10,15 @@
   },
   "dependencies": {
     "@apollo/server": "^4.4.1",
-    "bull": "^4.10.4",
+    "dotenv": "^16.0.3",
     "graphql": "^16.6.0",
-    "graphql-tag": "^2.12.6",
+    "node-cron": "^3.0.2",
     "node-fetch": "2.6.1",
     "redis": "^4.6.5"
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
+    "@types/node-cron": "^3.0.7",
     "@types/redis": "^4.0.11",
     "nodemon": "^2.0.21",
     "ts-node": "^10.9.1",
